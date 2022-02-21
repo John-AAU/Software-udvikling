@@ -33,12 +33,13 @@ void espDelay(int ms) //use-> espDelay(6000);
 void setup()
 {
     Serial.begin(115200);
-    Serial.println("Start");
+    Serial.println("Starting");
     tft.init();
     tft.fontHeight(2);
     tft.setRotation(1);
     tft.fillScreen(TFT_BLACK);
-    tft.drawString("Hello, my friend", tft.width()/4, tft.height() / 2, 4);  //string,start x,start y, font weight {1;2;4;6;7;8}
+    tft.drawString("Hello there", tft.width()/4, tft.height() / 2, 4); 
+    
 }
 
 void loop()
