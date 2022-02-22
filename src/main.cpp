@@ -38,7 +38,7 @@ void setup()
     tft.fontHeight(2);
     tft.setRotation(1);
     tft.fillScreen(TFT_BLACK);
-    tft.drawString("Hello world", tft.width()/4, tft.height() / 2, 4); 
+    tft.drawString("Hello Denmark", tft.width()/4, tft.height() / 2, 4); 
     
 }
 
